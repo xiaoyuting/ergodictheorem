@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87AD04242061F30500D2AAF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD04232061F30500D2AAF3 /* AppDelegate.m */; };
+		87AD04272061F30500D2AAF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD04262061F30500D2AAF3 /* ViewController.m */; };
+		87AD042A2061F30500D2AAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AD04282061F30500D2AAF3 /* Main.storyboard */; };
+		87AD042C2061F30500D2AAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AD042B2061F30500D2AAF3 /* Assets.xcassets */; };
+		87AD042F2061F30500D2AAF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AD042D2061F30500D2AAF3 /* LaunchScreen.storyboard */; };
+		87AD04322061F30600D2AAF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD04312061F30600D2AAF3 /* main.m */; };
+		87AD043C2061F30600D2AAF3 /* ergodictheoremTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD043B2061F30600D2AAF3 /* ergodictheoremTests.m */; };
+		87AD04472061F30600D2AAF3 /* ergodictheoremUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD04462061F30600D2AAF3 /* ergodictheoremUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87AD04382061F30600D2AAF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87AD04172061F30500D2AAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AD041E2061F30500D2AAF3;
+			remoteInfo = ergodictheorem;
+		};
+		87AD04432061F30600D2AAF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87AD04172061F30500D2AAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AD041E2061F30500D2AAF3;
+			remoteInfo = ergodictheorem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87AD041F2061F30500D2AAF3 /* ergodictheorem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ergodictheorem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AD04222061F30500D2AAF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87AD04232061F30500D2AAF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87AD04252061F30500D2AAF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87AD04262061F30500D2AAF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87AD04292061F30500D2AAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87AD042B2061F30500D2AAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87AD042E2061F30500D2AAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87AD04302061F30600D2AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AD04312061F30600D2AAF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87AD04372061F30600D2AAF3 /* ergodictheoremTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ergodictheoremTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AD043B2061F30600D2AAF3 /* ergodictheoremTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ergodictheoremTests.m; sourceTree = "<group>"; };
+		87AD043D2061F30600D2AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AD04422061F30600D2AAF3 /* ergodictheoremUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ergodictheoremUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AD04462061F30600D2AAF3 /* ergodictheoremUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ergodictheoremUITests.m; sourceTree = "<group>"; };
+		87AD04482061F30600D2AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87AD041C2061F30500D2AAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AD04342061F30600D2AAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AD043F2061F30600D2AAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87AD04162061F30500D2AAF3 = {
+			isa = PBXGroup;
+			children = (
+				87AD04212061F30500D2AAF3 /* ergodictheorem */,
+				87AD043A2061F30600D2AAF3 /* ergodictheoremTests */,
+				87AD04452061F30600D2AAF3 /* ergodictheoremUITests */,
+				87AD04202061F30500D2AAF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87AD04202061F30500D2AAF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87AD041F2061F30500D2AAF3 /* ergodictheorem.app */,
+				87AD04372061F30600D2AAF3 /* ergodictheoremTests.xctest */,
+				87AD04422061F30600D2AAF3 /* ergodictheoremUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87AD04212061F30500D2AAF3 /* ergodictheorem */ = {
+			isa = PBXGroup;
+			children = (
+				87AD04222061F30500D2AAF3 /* AppDelegate.h */,
+				87AD04232061F30500D2AAF3 /* AppDelegate.m */,
+				87AD04252061F30500D2AAF3 /* ViewController.h */,
+				87AD04262061F30500D2AAF3 /* ViewController.m */,
+				87AD04282061F30500D2AAF3 /* Main.storyboard */,
+				87AD042B2061F30500D2AAF3 /* Assets.xcassets */,
+				87AD042D2061F30500D2AAF3 /* LaunchScreen.storyboard */,
+				87AD04302061F30600D2AAF3 /* Info.plist */,
+				87AD04312061F30600D2AAF3 /* main.m */,
+			);
+			path = ergodictheorem;
+			sourceTree = "<group>";
+		};
+		87AD043A2061F30600D2AAF3 /* ergodictheoremTests */ = {
+			isa = PBXGroup;
+			children = (
+				87AD043B2061F30600D2AAF3 /* ergodictheoremTests.m */,
+				87AD043D2061F30600D2AAF3 /* Info.plist */,
+			);
+			path = ergodictheoremTests;
+			sourceTree = "<group>";
+		};
+		87AD04452061F30600D2AAF3 /* ergodictheoremUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87AD04462061F30600D2AAF3 /* ergodictheoremUITests.m */,
+				87AD04482061F30600D2AAF3 /* Info.plist */,
+			);
+			path = ergodictheoremUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87AD041E2061F30500D2AAF3 /* ergodictheorem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AD044B2061F30600D2AAF3 /* Build configuration list for PBXNativeTarget "ergodictheorem" */;
+			buildPhases = (
+				87AD041B2061F30500D2AAF3 /* Sources */,
+				87AD041C2061F30500D2AAF3 /* Frameworks */,
+				87AD041D2061F30500D2AAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ergodictheorem;
+			productName = ergodictheorem;
+			productReference = 87AD041F2061F30500D2AAF3 /* ergodictheorem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87AD04362061F30600D2AAF3 /* ergodictheoremTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AD044E2061F30600D2AAF3 /* Build configuration list for PBXNativeTarget "ergodictheoremTests" */;
+			buildPhases = (
+				87AD04332061F30600D2AAF3 /* Sources */,
+				87AD04342061F30600D2AAF3 /* Frameworks */,
+				87AD04352061F30600D2AAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87AD04392061F30600D2AAF3 /* PBXTargetDependency */,
+			);
+			name = ergodictheoremTests;
+			productName = ergodictheoremTests;
+			productReference = 87AD04372061F30600D2AAF3 /* ergodictheoremTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87AD04412061F30600D2AAF3 /* ergodictheoremUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AD04512061F30600D2AAF3 /* Build configuration list for PBXNativeTarget "ergodictheoremUITests" */;
+			buildPhases = (
+				87AD043E2061F30600D2AAF3 /* Sources */,
+				87AD043F2061F30600D2AAF3 /* Frameworks */,
+				87AD04402061F30600D2AAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87AD04442061F30600D2AAF3 /* PBXTargetDependency */,
+			);
+			name = ergodictheoremUITests;
+			productName = ergodictheoremUITests;
+			productReference = 87AD04422061F30600D2AAF3 /* ergodictheoremUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87AD04172061F30500D2AAF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GM;
+				TargetAttributes = {
+					87AD041E2061F30500D2AAF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					87AD04362061F30600D2AAF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87AD041E2061F30500D2AAF3;
+					};
+					87AD04412061F30600D2AAF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87AD041E2061F30500D2AAF3;
+					};
+				};
+			};
+			buildConfigurationList = 87AD041A2061F30500D2AAF3 /* Build configuration list for PBXProject "ergodictheorem" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87AD04162061F30500D2AAF3;
+			productRefGroup = 87AD04202061F30500D2AAF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87AD041E2061F30500D2AAF3 /* ergodictheorem */,
+				87AD04362061F30600D2AAF3 /* ergodictheoremTests */,
+				87AD04412061F30600D2AAF3 /* ergodictheoremUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87AD041D2061F30500D2AAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD042F2061F30500D2AAF3 /* LaunchScreen.storyboard in Resources */,
+				87AD042C2061F30500D2AAF3 /* Assets.xcassets in Resources */,
+				87AD042A2061F30500D2AAF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AD04352061F30600D2AAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AD04402061F30600D2AAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87AD041B2061F30500D2AAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD04272061F30500D2AAF3 /* ViewController.m in Sources */,
+				87AD04322061F30600D2AAF3 /* main.m in Sources */,
+				87AD04242061F30500D2AAF3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AD04332061F30600D2AAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD043C2061F30600D2AAF3 /* ergodictheoremTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AD043E2061F30600D2AAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD04472061F30600D2AAF3 /* ergodictheoremUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87AD04392061F30600D2AAF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AD041E2061F30500D2AAF3 /* ergodictheorem */;
+			targetProxy = 87AD04382061F30600D2AAF3 /* PBXContainerItemProxy */;
+		};
+		87AD04442061F30600D2AAF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AD041E2061F30500D2AAF3 /* ergodictheorem */;
+			targetProxy = 87AD04432061F30600D2AAF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87AD04282061F30500D2AAF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AD04292061F30500D2AAF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87AD042D2061F30500D2AAF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AD042E2061F30500D2AAF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87AD04492061F30600D2AAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87AD044A2061F30600D2AAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87AD044C2061F30600D2AAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				INFOPLIST_FILE = ergodictheorem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaimao.ergodictheorem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87AD044D2061F30600D2AAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				INFOPLIST_FILE = ergodictheorem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaimao.ergodictheorem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87AD044F2061F30600D2AAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				INFOPLIST_FILE = ergodictheoremTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaimao.ergodictheoremTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ergodictheorem.app/ergodictheorem";
+			};
+			name = Debug;
+		};
+		87AD04502061F30600D2AAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				INFOPLIST_FILE = ergodictheoremTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaimao.ergodictheoremTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ergodictheorem.app/ergodictheorem";
+			};
+			name = Release;
+		};
+		87AD04522061F30600D2AAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				INFOPLIST_FILE = ergodictheoremUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaimao.ergodictheoremUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ergodictheorem;
+			};
+			name = Debug;
+		};
+		87AD04532061F30600D2AAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				INFOPLIST_FILE = ergodictheoremUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaimao.ergodictheoremUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ergodictheorem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87AD041A2061F30500D2AAF3 /* Build configuration list for PBXProject "ergodictheorem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AD04492061F30600D2AAF3 /* Debug */,
+				87AD044A2061F30600D2AAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AD044B2061F30600D2AAF3 /* Build configuration list for PBXNativeTarget "ergodictheorem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AD044C2061F30600D2AAF3 /* Debug */,
+				87AD044D2061F30600D2AAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AD044E2061F30600D2AAF3 /* Build configuration list for PBXNativeTarget "ergodictheoremTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AD044F2061F30600D2AAF3 /* Debug */,
+				87AD04502061F30600D2AAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AD04512061F30600D2AAF3 /* Build configuration list for PBXNativeTarget "ergodictheoremUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AD04522061F30600D2AAF3 /* Debug */,
+				87AD04532061F30600D2AAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87AD04172061F30500D2AAF3 /* Project object */;
+}
